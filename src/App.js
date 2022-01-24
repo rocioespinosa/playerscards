@@ -2,6 +2,7 @@
 import CardHolder from "./components/cardHolder";
 import './App.css';
 import WebTitle from "./components/webTitle"
+import Footer from "./components/footer"
 
 
 function App() {
@@ -11,11 +12,9 @@ function App() {
     </div>
     <div> <WebTitle/>
     </div>
-
+    <div> <Footer/>
     </div>
-   
-     
-    
+</div>  
   );
 }
 

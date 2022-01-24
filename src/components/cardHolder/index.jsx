@@ -7,24 +7,24 @@ import './styles.css'
 export default function CardHolder() {
 
 const cardsInfo = [{ 
-    url:"https://upload.wikimedia.org/wikipedia/commons/6/67/Alfredo_Di_Stefano_River_Plate.jpg",
+    url:"https://tmssl.akamaized.net/images/foto/galerie/alfredo-di-stefano-legende-von-real-madrid-1543500967-19025.jpg?lm=1543500978",
     title: "Alfredo Di Stéfano",
     year:"1950s",
     goals: "301 GOALS"
 
 }, { 
-    url:"https://i.pinimg.com/originals/9e/39/92/9e3992a9975d4a316bdaf9417bed9ba6.jpg",
+    url:"https://tmssl.akamaized.net/images/foto/galerie/thierry-henry-arsenal-jubel-2012-1592828479-41984.jpg?lm=1592828454",
     title: "Thierry Henry",
     year:"2000s",
     goals: "313 GOALS"
 },  { 
-    url:"https://www.ceroacero.es/img/jogadores/98/740098_med__20210109204134_hugo_sanchez.jpg",
+    url:"https://www.poblanerias.com/wp-content/archivos/2016/10/hug.jpg",
     title: "Hugo Sánchez",
     year:"1980s",
     goals: "315 GOALS"
 },
 { 
-    url:"https://http2.mlstatic.com/D_NQ_NP_994545-MLM43967849090_112020-O.jpg",
+    url:"https://www.clarin.com/img/2014/01/21/HyHjX4e4l_720x0.jpg",
     title: "Romario",
     year:"1990s",
     goals: "340 GOALS"
@@ -36,6 +36,20 @@ const cardsInfo = [{
     goals: "403 GOALS"
 },
 
+{ 
+    url:"https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/6YON27YBYRAMJCCUYPNBVWSECA.jpg",
+    title: "Josef Bican",
+    year:"1940s",
+    goals: "470 GOALS"
+},
+
+{
+
+url:"https://i.eurosport.com/2021/06/04/3145737-64470469-640-480.jpg",
+title: "Lionel Messi",
+year:"2010s",
+goals: "579 GOALS"
+}
 
 ] 
 

@@ -11,6 +11,7 @@ export default function Card ({url, title, year, goals}) {
  <h1 class="title">{title}</h1>
       <p class="year">{year}</p>
       <p class="goals">{goals}</p>
+ 
  </div>
   </div>
   </div>

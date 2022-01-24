@@ -1,19 +1,15 @@
 .imageOne {
-    left: 100px;
-    height: 50px;
-    opacity: 1;
-    pointer-events: auto;
-    transition-delay: .5s;
-    display: flex;
-    margin: auto;
-  }
+  height: 50px;
+  opacity: 1;
+ 
+}
 
-  .imageTwo {
-    left: 100px;
-    height: 50px;
-    opacity: 1;
-    pointer-events: auto;
-    transition-delay: .5s;
-    display: flex;
-    margin: auto;
-  }
+
+.imageTwo {
+
+  height: 50px;
+  opacity: 1;
+ 
+
+ 
+}
