@@ -1,10 +1,12 @@
-import './styles.css'
-import React from 'react';
+import "./styles.css";
+import React from "react";
 
 export default function WebTitle() {
-  return <div>
+  return (
+    <div>
       <div>
-          <h1 className="webTitle">TOP GOALSCORER EACH DECADE </h1>
+        <h1 className="webTitle">TOP GOALSCORER EACH DECADE </h1>
       </div>
-  </div>;
+    </div>
+  );
 }

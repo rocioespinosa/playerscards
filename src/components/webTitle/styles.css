@@ -1,19 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Righteous");
 
-
-
 .webTitle {
-    font-family: "Righteous", sans-serif;
-    font-weight: 900;
-    letter-spacing: 3px;
-    font-size: 50px;
-    color: #D62828;
-    position: absolute;
-    padding: -2cm;
-    top: 80px;
-    height: 300px;
-    margin: 0 auto;
-    display: flex;
-    right: 450px;
-   
+  font-family: "Righteous", sans-serif;
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 50px;
+  color: #d62828;
+  margin: 0 auto;
 }
