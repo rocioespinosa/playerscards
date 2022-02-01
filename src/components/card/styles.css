@@ -1,13 +1,13 @@
-
-@import url('https://fonts.googleapis.com/css?family=Dosis:400,600,700,800');
+@import url("https://fonts.googleapis.com/css?family=Dosis:400,600,700,800");
 
 @font-face {
-  font-family: 'Uni Sans';
-  src: url('https://res.cloudinary.com/muhammederdem/raw/upload/v1536168547/unisans-font/UniSansHeavyCAPS.woff2') format('woff2');
+  font-family: "Uni Sans";
+  src: url("https://res.cloudinary.com/muhammederdem/raw/upload/v1536168547/unisans-font/UniSansHeavyCAPS.woff2")
+    format("woff2");
 }
 
 body {
- background-color: #D6D6D6;
+  background-color: #d6d6d6;
   background-size: cover;
   font: 14px/20px "Lato", Arial, sans-serif;
   color: #9e9e9e;
@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-  background: #19204E;
+  background: #19204e;
   width: 400px;
   margin: 50px auto;
   border-radius: 12px;
@@ -48,48 +48,43 @@ body {
 }
 
 .thumbnail img {
-  display: inline-block; 
-  width:  300px;
+  display: inline-block;
+  width: 300px;
   height: 300px;
-  margin: 0 0 48px; 
-  border-radius: 50%; 
+  margin: 0 0 48px;
+  border-radius: 50%;
   object-fit: cover;
   object-position: bottom;
-  
-
 }
 
-
 .title {
-  font-family: 'Uni Sans', sans-serif;
+  font-family: "Uni Sans", sans-serif;
   font-weight: 900;
   font-size: 41px;
   line-height: 1.2em;
   letter-spacing: 2px;
   opacity: 1;
   margin: 0 0 12px;
-  color: #FCB300;
- -webkit-transition: 0.5s ease;
+  color: #fcb300;
+  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
-.year { 
+.year {
   margin: 0 0 48px;
   margin-bottom: 10px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   font-size: 25px;
-  color: #D62828;
- 
- }
+  color: #d62828;
+}
 
- .goals {
+.goals {
   margin: 0 0 48px;
   margin-bottom: 10px;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   font-size: 45px;
-  color: #D62828;
- }
- 
+  color: #d62828;
+}

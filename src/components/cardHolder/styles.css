@@ -1,15 +1,28 @@
-.imageOne {
-  height: 50px;
-  opacity: 1;
- 
+.cardHolder-container {
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+
+  grid-template-areas: "LeftArrow Card RightArrow";
+
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+
+  padding: 50px;
 }
 
-
-.imageTwo {
-
+.cardHolder-leftArrow {
+  grid-area: LeftArrow;
   height: 50px;
   opacity: 1;
- 
+}
 
- 
+.cardHolder-card {
+  grid-area: Card;
+}
+
+.cardHolder-rightArrow {
+  grid-area: RightArrow;
+  height: 50px;
+  opacity: 1;
 }
